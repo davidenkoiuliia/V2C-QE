@@ -1,0 +1,45 @@
+&CONTROL
+  calculation = 'nscf'
+  restart_mode = 'from_scratch'
+  etot_conv_thr =   1e-5
+  forc_conv_thr =  	1e-4
+  outdir = './out'
+  prefix = 'v2c'
+  pseudo_dir = './'
+  tprnfor = .true.
+  verbosity = 'high'
+/
+&SYSTEM
+  degauss =   1.4699723600d-02
+  ecutrho =   3.6000000000d+02
+  ecutwfc =   4.5000000000d+01
+  ibrav = 0
+  nat = 3
+  nosym = .false.
+  ntyp = 2
+  occupations = 'tetrahedra'
+  smearing = 'cold'
+/
+&ELECTRONS
+  conv_thr =   6.0000000000d-10
+  electron_maxstep = 80
+  mixing_beta =   4.0000000000d-01
+/
+&IONS
+/
+&CELL
+cell_dofree='ibrav'
+/
+ATOMIC_SPECIES
+C      12.0107 C.pbe-n-kjpaw_psl.1.0.0.UPF
+V      50.9415 v_pbe_v1.4.uspp.F.UPF
+ATOMIC_POSITIONS crystal
+V            0.3333333333       0.6666666667       0.2551684700 
+V            0.6666666667       0.3333333333       0.7448315300 
+C            0.0000000000       0.0000000000       0.0000000000 
+K_POINTS automatic
+13 13 7 0 0 0
+CELL_PARAMETERS angstrom
+     -1.4412561150      -2.4963288179      -0.0000000000
+     -1.4412561150       2.4963288179       0.0000000000
+      0.0000000000       0.0000000000      -4.5010760100

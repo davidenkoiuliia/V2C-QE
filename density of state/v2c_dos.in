@@ -1,0 +1,10 @@
+&DOS
+   prefix='v2c',
+   outdir = './out/',
+   bz_sum = 'tetrahedra',
+   DeltaE=0.01,
+   fildos='v2cdos.dat',
+   ngauss = 0,
+   emin=-30.0,
+   emax=50.0
+/
