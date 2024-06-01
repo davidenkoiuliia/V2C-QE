@@ -1,0 +1,5 @@
+&bands
+	outdir='./outs/'
+	prefix = 'v2c'
+	filband = 'v2c_bands.dat'
+/
