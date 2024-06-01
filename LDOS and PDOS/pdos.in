@@ -1,0 +1,5 @@
+&projwfc
+	prefix='v2c'
+	outdir='./outdir/'
+	filpdos='v2c.pdos.dat'
+/
