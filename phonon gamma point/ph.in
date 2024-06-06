@@ -1,0 +1,7 @@
+&inputph
+  outdir = './out'
+  prefix = 'v2c',
+  tr2_ph = 1.0d-14
+  fildyn = 'v2c.dyn'
+/
+0 0 0
